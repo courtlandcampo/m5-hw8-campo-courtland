@@ -1,4 +1,6 @@
 // Create an Array of at least 3 losing messages
+let losingMessage = ["That ain't it! But you should try again.", "Nope, not that one.", "Try again"];
+console.log(losingMessage);
 
 // Create variables to count wins and losses
 
