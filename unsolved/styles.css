@@ -6,6 +6,112 @@
   --box-color-3: #A5FF01;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*===========================
+HEADER
+===========================*/
+
+header {
+  background-color: #6003C3;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 5em;
+  text-align: center;
+  padding: 4rem 0rem;
+  line-height: 1em;
+}
+
+
+/*===========================
+BODY
+===========================*/
+
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
+}
+
+p {
+  color: #6003C3;
+  font-size: 2em;
+  padding: .5em;
+  text-align: center;
+}
+
+.boxes {
+  text-align: center;
+  font-size: 5em;
+  color: #6003C3;
+}
+
+.box {
+  padding: 1em;
+  margin: 0 8rem 2rem 8rem;
+  border: 1.25rem solid #6003C3;
+  border-radius: 1rem;
+  box-shadow: .5rem .5rem 1rem #808080;
+}
+
+#box-1 {
+  background-color: #FCFF00;
+}
+
+#box-2 {
+  background-color: #57FFC9;
+}
+
+#box-3 {
+  background-color: #A5FF01;
+}
+
+.score {
+  color: #6003C3;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+/*===========================
+RESPONSIVE  - 768px BY 1024px (TABLET)
+===========================*/
+@media screen and (min-width: 575px) {
+  h1 {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .boxes {
+    display: flex;
+    width: 100%;
+  }
+  .box {
+    flex: 1;
+    margin: 2rem 3rem;
+  }
+}
+
+/*===========================
+RESPONSIVE - 1366px by 768px (LAPTOP)
+===========================*/
+@media screen and (min-width: 1366px) {
+  .boxes {
+    font-size: 8rem;
+  }
+  .box {
+    margin: 2rem 8rem;
+    padding: 2rem 4rem;
+  }
+}
+
+
+/*===========================
+RESPONSIVE  - 1920px by 1080 px (DESKTOP)
+===========================*/
+@media screen and (min-width: 1500px) {
+  .box {
+    margin: 2rem 12rem;
+  }
 }
