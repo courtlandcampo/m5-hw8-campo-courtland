@@ -1,3 +1,7 @@
+Main issues were resolved with trial and error
+
+Used "random" pages to help; mistakenly did not keep track
+
 # Box Challenge
 
 ![laptop mockup of the box challenge assignment](./mockups/laptop-1024x768.png)
