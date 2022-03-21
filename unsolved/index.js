@@ -9,6 +9,12 @@ console.log("Your win score:", winScore);
 console.log("Your lose score:", loseScore);
 
 // Create variables that target elements with the following IDs: 'message', 'wins', 'losses'
+let message = document.getElementById("message");
+let wins = document.getElementById("wins");
+let losses = document.getElementById("losses");
+console.log(message);
+console.log(wins);
+console.log(losses);
 
 // target all .box elements and attach a click event listener to each one using a loop
 
