@@ -3,6 +3,10 @@ let losingMessage = ["That ain't it! But you should try again.", "Nope, not that
 console.log(losingMessage);
 
 // Create variables to count wins and losses
+let winScore = 0;
+let loseScore = 0;
+console.log("Your win score:", winScore);
+console.log("Your lose score:", loseScore);
 
 // Create variables that target elements with the following IDs: 'message', 'wins', 'losses'
 
