@@ -42,3 +42,17 @@ console.log(randomNumberWinner);
 
 // if the numbers don't match, change the div#message element's text to a random losing message from the array above
 // if the numbers don't match, increment losses and display the loss count in div#losses
+if (numberOfBoxClicked === randomNumberWinner) {
+    console.log("You won!");
+    message.textContent = "You won!";
+    winScore += 1;
+    wins.textContent = "Wins:" + winScore;
+    console.log("Your win score:", winScore);
+    } else {
+      console.log(losingMessage);
+    message.textContent = losingMessage[Math.floor(Math.random() * 3)];
+    loseScore += 1;
+    losses.textContent = "Losses:" + loseScore;
+    console.log("Your lose score:", loseScore);
+    }
+}
