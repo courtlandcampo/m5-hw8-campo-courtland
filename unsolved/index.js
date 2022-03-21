@@ -25,9 +25,16 @@ for (var i = 0; i < box.length; i++) {
 // within each click event...
 // determine which box was clicked with 'this.textContent' or event.target.textContent
 // convert that value to a Number and store it to a variable
+function clickedBox(event) {
+    clickedBox.textContent = event.target.textContent;
+    var numberOfBoxClicked = Number(event.target.textContent);
+    console.log(event.target)
+}
 
 // create a random number between 1-3 and store it to a variable
 // This number will represent the winning box
+var randomNumberWinner = Math.floor(Math.random() * 3) + 1;
+console.log(randomNumberWinner);
 
 // determine if the box clicked is equal to the random number
 // if the numbers match, display a winning message by changing the text content of the div#message element
