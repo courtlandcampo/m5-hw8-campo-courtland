@@ -17,6 +17,10 @@ console.log(wins);
 console.log(losses);
 
 // target all .box elements and attach a click event listener to each one using a loop
+var box = document.querySelectorAll('.box');
+for (var i = 0; i < box.length; i++) {
+  box[i].onclick = clickedBox
+}
 
 // within each click event...
 // determine which box was clicked with 'this.textContent' or event.target.textContent
